@@ -1,0 +1,24 @@
+### Show users
+
+GET http://localhost:3000/users
+
+### Create a user
+
+ POST http://localhost:3000/users
+ Content-Type: application/json
+
+ {
+   "name": "Aliyu",
+   "password": "password"
+ }
+
+
+### LogIn
+
+ POST http://localhost:3000/users/login
+ Content-Type: application/json
+
+ {
+   "name": "Aliyu",
+   "password": "password"
+ }
